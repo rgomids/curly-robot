@@ -1,0 +1,21 @@
+{
+  "databases": {
+    "mysql": {
+      "driver": "",
+      "host": "",
+      "password": "",
+      "port": "",
+      "schema": "",
+      "user": ""
+    }
+  },
+  "server": {
+    "port": "8090",
+    "host": "0.0.0.0",
+    "ssl": false
+  },
+  "jwt": {
+    "secret": "", //optional
+    "expiration_time": 0
+  }
+}

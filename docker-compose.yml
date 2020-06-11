@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  api_main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PROJECT_NAME: "${TURBO_PARAKEET_DEFAULT_NAME}"
+        PROJECT_EMAIL: "${TURBO_PARAKEET_EMAIL}"
+    ports: 
+      - "${TURBO_PARAKEET_PORT}:9090"
